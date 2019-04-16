@@ -1,0 +1,10 @@
+insied app.js use the following api details
+
+var options = {
+        url: "https://us20.api.mailchimp.com/3.0/lists/52bf47cfb3",
+        method: "POST",
+        headers: {
+            "Authorization": "truetech1 de087c8fb6a7683c66fb0c40d6b9feac-us20"
+        },
+        body: jsonData
+    };

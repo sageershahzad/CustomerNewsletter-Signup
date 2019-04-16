@@ -34,12 +34,12 @@ app.post("/", function(req, res){
     };
 
     var jsonData = JSON.stringify(data);
-
+//use your own correct api 
     var options = {
-        url: "https://us20.api.mailchimp.com/3.0/lists/52bf47cfb3",
+        url: "add-your-own-api-url",
         method: "POST",
         headers: {
-            "Authorization": "truetech1 de087c8fb6a7683c66fb0c40d6b9feac-us20"
+            "Authorization": "use-your-own-api-key"
         },
         body: jsonData
     };
@@ -74,13 +74,3 @@ app.listen(process.env.PORT || 3000, function(){
     console.log("Server for NEWSLETTER signup is running at port 3000.");
 });
 
-// app.listen(3000, function(){
-//     console.log("Server for NEWSLETTER signup is running at port 3000.");
-// });
-
-
-
-//de087c8fb6a7683c66fb0c40d6b9feac
-//de087c8fb6a7683c66fb0c40d6b9feac-us20
-
-//52bf47cfb3
